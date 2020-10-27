@@ -1,14 +1,14 @@
 <div *ngIf="hero" class="hero-details-section">
-    <div class="hero-title">
+    <div class="selectedHero-title">
         <h2>{{ hero.name | uppercase }}'s Details</h2>
     </div>
-    <div class="hero-img">
+    <div class="selectedHero-img">
         <img src="{{ hero.img }}" alt="{{ hero.name }}'s image">
     </div>
-    <div class="hero-id">
+    <div class="selectedHero-id">
         <span>id: {{ hero.id }}</span>
     </div>
-    <div class="hero-name">
+    <div class="selectedHero-name">
         <label>
             name:
             <input [(ngModel)]="hero.name" placeholder="name">

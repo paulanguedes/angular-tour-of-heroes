@@ -1,3 +1,6 @@
+* {
+  background-color: transparent;
+}
 .hero-details-section {
   margin: 2vh 0;
   display: flex;
@@ -18,10 +21,20 @@
 .selectedHero-title {
   grid-area: title;
 }
+.selectedHero-title h2 {
+  text-align: center;
+  margin: 2vh 0;
+  font-weight: 600;
+  text-shadow: grey 1px 1px 1px;
+}
 .selectedHero-img {
   grid-area: img;
   background-color: var(--background);
   border-radius: 10px;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .selectedHero-name {
   grid-area: name;
