@@ -1,0 +1,45 @@
+.hero-details-section {
+  margin: 2vh 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  background-color: var(--orange);
+  border-radius: 10px;
+  padding: 2vh 2vw;
+  margin: 2vh 4vw;
+
+  display: grid;
+  grid-template-areas:
+    "img title"
+    "img name"
+    "img id";
+}
+.selectedHero-title {
+  grid-area: title;
+}
+.selectedHero-img {
+  grid-area: img;
+  background-color: var(--background);
+  border-radius: 10px;
+}
+.selectedHero-name {
+  grid-area: name;
+}
+.selectedHero-id {
+  grid-area: id;
+}
+.hero-details-section h2,
+label,
+span,
+input {
+  color: white;
+  font-size: 2rem;
+}
+.hero-details-section input {
+  background-color: white;
+  font-size: 2rem;
+  color: var(--dark);
+  border: none;
+  padding: 0.6rem;
+}

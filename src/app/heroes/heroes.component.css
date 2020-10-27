@@ -20,23 +20,18 @@ h2 {
   padding: 0.6vh 0.6vw;
   border-radius: 10px;
   text-align: center;
-  background-color: var(--orange);
+  background-color: var(--background);
 }
 .hero-card:hover {
   box-shadow: 2.6px 2.6px 2.6px 3px rgb(170, 170, 170);
-}
-.hero-card span {
-  font-size: 0.8rem;
-  font-weight: 600;
-  color: white;
 }
 .hero-img {
   margin: 2vh 0;
   background-color: var(--background);
 }
 .hero-img img {
-  max-width: 16vw;
-  max-height: 16vh;
+  max-width: 10vw;
+  max-height: 10vh;
   padding: 1vh 1vw;
 }
 .hero-card h3 {
