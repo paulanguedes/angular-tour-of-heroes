@@ -3,6 +3,9 @@
 <div class="heroes-list">
     <div *ngFor = 'let hero of heroes'>
         <div class="hero-card">
+            <div class="hero-img">
+                <img src="{{ hero.img }}" alt="{{ hero.name }}'s image">
+            </div>
             <span>{{ hero.id }}</span>
             <h3>{{ hero.name }}</h3>
         </div>
