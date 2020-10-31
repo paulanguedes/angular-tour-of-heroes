@@ -1,0 +1,27 @@
+.ranking-container {
+  height: fit-content;
+  margin-top: 4vh;
+  padding: 0 20vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+h3 {
+  width: 50%;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--yellow);
+  text-shadow: grey 1px 1px 1px;
+}
+.heroes-ranking {
+  width: 50%;
+}
+.heroes-ranking a {
+  text-decoration: none;
+}
+h4 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: grey;
+}
