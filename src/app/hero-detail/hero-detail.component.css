@@ -10,10 +10,12 @@
 .hero-details-card {
   margin: 2vh 0;
   text-align: left;
-  background-color: var(--orange);
+  background-color: var(--red);
+  box-shadow: 0 4px 6px 1px rgb(198, 198, 198);
   border-radius: 10px;
   padding: 2vh 2vw;
   margin: 2vh 4vw;
+  width: 80%;
 
   display: grid;
   grid-template-areas:
@@ -35,6 +37,8 @@
   background-color: var(--background);
   border-radius: 10px;
   height: 40vh;
+  width: 40vw;
+  box-shadow: 2px 2px 8px 2px rgb(198, 198, 198) inset;
   display: flex;
   justify-content: center;
   align-items: center;
