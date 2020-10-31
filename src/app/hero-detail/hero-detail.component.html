@@ -1,17 +1,21 @@
-<div *ngIf="hero" class="hero-details-section">
-    <div class="selectedHero-title">
-        <h2>{{ hero.name | uppercase }}'s Details</h2>
+<section class="hero-details-section">
+    <div *ngIf="hero" class="hero-details-card">
+        <div class="selectedHero-title">
+            <h2>{{ hero.name | uppercase }}'s Details</h2>
+        </div>
+        <div class="selectedHero-img">
+            <img src="{{ hero.img }}" alt="{{ hero.name }}'s image">
+        </div>
+        <div class="selectedHero-id">
+            <span>id: {{ hero.id }}</span>
+        </div>
+        <div class="selectedHero-name">
+            <label>
+                name:
+                <input [(ngModel)]="hero.name" placeholder="name">
+            </label>
+        </div>
     </div>
-    <div class="selectedHero-img">
-        <img src="{{ hero.img }}" alt="{{ hero.name }}'s image">
-    </div>
-    <div class="selectedHero-id">
-        <span>id: {{ hero.id }}</span>
-    </div>
-    <div class="selectedHero-name">
-        <label>
-            name:
-            <input [(ngModel)]="hero.name" placeholder="name">
-        </label>
-    </div>
-</div>
+    
+    <button (click)='goBack()'>Go back</button>
+</section>
