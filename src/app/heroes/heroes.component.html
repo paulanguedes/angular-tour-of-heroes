@@ -12,3 +12,13 @@
         </div>
     </div>
 </div>
+
+<div class="addHero">
+    <h3>Add a new heroine</h3>
+    <label>Name:
+        <input #heroName />
+    </label>
+    <button (click)='add(heroName.value); heroName.value=""'>
+        add
+    </button>
+</div>

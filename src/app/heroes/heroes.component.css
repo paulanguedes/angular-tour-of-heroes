@@ -42,3 +42,37 @@ h2 {
   text-shadow: grey 1px 1px 1px;
   margin: 2vh 0;
 }
+.addHero {
+  margin: 1vh 4vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.addHero h3 {
+  font-size: 1.4rem;
+  color: var(--dark);
+}
+.addHero label {
+  margin: 2vh 0;
+}
+.addHero input {
+  border: none;
+  background-color: var(--background);
+  margin-left: 1vw;
+}
+button {
+  text-align: center;
+  width: fit-content;
+  padding: 2.4vh 1vw;
+  border-radius: 60px;
+  background-color: grey;
+  border: none;
+  color: white;
+  font-weight: 600;
+}
+button:hover {
+  background-color: var(--yellow);
+  color: var(--dark);
+  box-shadow: grey 1px 1px 1px;
+}
