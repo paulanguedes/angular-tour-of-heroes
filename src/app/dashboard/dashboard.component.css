@@ -25,3 +25,6 @@ h4 {
   font-weight: 500;
   color: grey;
 }
+.search-heroes {
+  margin: 2vh 10vw;
+}
