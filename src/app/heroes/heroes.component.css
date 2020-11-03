@@ -76,3 +76,10 @@ button:hover {
   color: var(--dark);
   box-shadow: grey 1px 1px 1px;
 }
+.delete {
+  padding: 0.5vh 0.55vw;
+  margin-bottom: 1vh;
+}
+.delete:hover {
+  background-color: var(--red);
+}

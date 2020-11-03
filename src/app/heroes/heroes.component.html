@@ -3,11 +3,12 @@
 <div class="heroes-list">
     <div *ngFor = 'let hero of heroes'>
         <div class="hero-card">
-            <a  routerLink="/detail/{{ hero.id }}">
-                <div class="hero-img">
+            <a>
+                <div class="hero-img" routerLink="/detail/{{ hero.id }}">
                     <img src="{{ hero.img }}" alt="{{ hero.name }}'s image">
                 </div>
-                <h3>{{ hero.name }}</h3>
+                <h3 routerLink="/detail/{{ hero.id }}">{{ hero.name }}</h3>
+                <button class="delete" title="delete hero" (click)='delete(hero)'>x</button>
             </a>
         </div>
     </div>
