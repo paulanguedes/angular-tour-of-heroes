@@ -5,9 +5,11 @@
 .messages-block {
   padding: 2vh 2vw;
   text-align: center;
+  max-height: 30vh;
+  overflow-y: scroll;
 
   position: absolute;
-  bottom: 0;
+  bottom: -55vh;
   width: 100%;
 }
 h2 {
@@ -24,8 +26,6 @@ button {
   color: white;
   text-shadow: grey 1px 1px 1px;
   font-weight: 600;
-  position: fixed;
-  right: 22vw;
   border-radius: 20px;
 }
 button:hover {
