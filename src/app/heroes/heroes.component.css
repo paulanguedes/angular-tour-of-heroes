@@ -70,6 +70,7 @@ button {
   border: none;
   color: white;
   font-weight: 600;
+  margin-bottom: 18vh;
 }
 button:hover {
   background-color: var(--yellow);
