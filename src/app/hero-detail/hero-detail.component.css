@@ -1,66 +1,76 @@
 * {
   background-color: transparent;
+  margin: 0 4vw;
 }
-.hero-details-section {
-  display: flex;
-  align-content: center;
-  flex-direction: column;
-  align-items: center;
-}
-.hero-details-card {
-  margin: 2vh 0;
-  text-align: left;
+.hero-card {
   background-color: var(--red);
   box-shadow: 0 4px 6px 1px rgb(198, 198, 198);
   border-radius: 10px;
   padding: 2vh 2vw;
   margin: 2vh 4vw;
-  width: 80%;
 
   display: grid;
   grid-template-areas:
     "img title"
     "img name"
-    "img id";
+    "img id"
+    "img buttons";
 }
-.selectedHero-title {
+.hero-title {
   grid-area: title;
+  margin: 0;
 }
-.selectedHero-title h2 {
+.hero-title h2 {
   text-align: center;
-  margin: 2vh 0;
   font-weight: 600;
   text-shadow: grey 1px 1px 1px;
+  margin: 1vh 0;
 }
-.selectedHero-img {
+.hero-img {
   grid-area: img;
   background-color: var(--background);
   border-radius: 10px;
-  height: 40vh;
-  width: 40vw;
+  height: 30vh;
+  width: 30vw;
   box-shadow: 2px 2px 8px 2px rgb(198, 198, 198) inset;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.selectedHero-name {
+.hero-img img {
+  max-height: 30vh;
+  max-width: 30vw;
+}
+.hero-name {
   grid-area: name;
+  margin: 0;
 }
-.selectedHero-id {
+.hero-id {
   grid-area: id;
+  margin: 0;
 }
-.hero-details-card h2,
+.buttons {
+  grid-area: buttons;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0;
+}
+.hero-card h2,
 label,
 span,
 input {
   color: white;
-  font-size: 2rem;
+  font-size: 1.4rem;
+  margin: 0;
 }
-.hero-details-card input {
+.hero-card input {
   background-color: white;
-  font-size: 2rem;
+  font-size: 1.6rem;
   color: var(--dark);
   border: none;
+  border-radius: 2px;
   padding: 0.6rem;
 }
 button {
