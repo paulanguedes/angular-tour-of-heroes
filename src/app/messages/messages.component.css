@@ -3,29 +3,35 @@
   color: white;
 }
 .messages-block {
-  margin: 2vh 8vw;
-  border-radius: 6px;
   padding: 2vh 2vw;
   text-align: center;
+
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
-.messages-block h2 {
-  margin: 2vh 0;
+h2 {
   font-size: 1.4rem;
   font-weight: 600;
   text-shadow: grey 1px 1px 1px;
 }
-.messages-block button {
-  margin: 2vh 0;
-  padding: 1vh 1vw;
-  border-radius: 4px;
+button {
+  padding: 0.4em;
+  width: 2vw;
+  height: 4vh;
   border: none;
   background-color: var(--yellow);
   color: white;
   text-shadow: grey 1px 1px 1px;
-  font-size: 1.2rem;
   font-weight: 600;
+  position: fixed;
+  right: 22vw;
+  border-radius: 20px;
 }
-.messages-block button:hover {
+button:hover {
   background-color: white;
   color: var(--dark);
+}
+.messages-list {
+  line-height: 1.6rem;
 }

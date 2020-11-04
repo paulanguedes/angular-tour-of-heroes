@@ -11,3 +11,16 @@ label {
   margin-left: 0.6vw;
   color: var(--dark);
 }
+ul {
+  list-style: none;
+}
+li a {
+  text-decoration: none;
+  color: grey;
+  line-height: 2rem;
+}
+li a:hover {
+  color: var(--dark);
+  font-size: 1.2rem;
+  font-weight: 600;
+}
