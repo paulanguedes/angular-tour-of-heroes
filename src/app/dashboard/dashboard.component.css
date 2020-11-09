@@ -1,5 +1,5 @@
 .ranking-container {
-  height: fit-content;
+  margin-top: 2vh;
   padding: 0 20vw;
   display: flex;
   flex-direction: row;
