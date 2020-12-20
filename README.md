@@ -31,3 +31,10 @@ E iniciar o Angular:
 `ng s`
 
 ![Alt Text](https://media.giphy.com/media/3o6vXRonVwzMX7g63u/giphy.gif)
+
+### Paula Guedes
+
+*paulanguedes@gmail.com*
+[LinkedIn](https://www.linkedin.com/in/paulanguedes/)
+[GitLab](https://gitlab.com/paulanguedes)
+[GitHub](https://github.com/paulanguedes)
