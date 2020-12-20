@@ -35,6 +35,9 @@ E iniciar o Angular:
 ### Paula Guedes
 
 *paulanguedes@gmail.com*
+
 [LinkedIn](https://www.linkedin.com/in/paulanguedes/)
+
 [GitLab](https://gitlab.com/paulanguedes)
+
 [GitHub](https://github.com/paulanguedes)
