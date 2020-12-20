@@ -1,12 +1,14 @@
 
-<div class="messages-block" *ngIf = 'messageService.messages.length'>
-    <button class='clear' (click)='messageService.clear()'>
-        x
-    </button>
-    <h2>Action history</h2>
-    <div *ngFor='let message of messageService.messages'>
-        <div class="messages-list">
-            {{ message }}
+<ng-container *ngIf = 'messageService.messages.length' >
+    <div class="messages-block" >
+        <button class='clear' (click)='messageService.clear()'>
+            x
+        </button>
+        <h2>Action history</h2>
+        <div *ngFor='let message of messageService.messages'>
+            <div class="messages-list">
+                {{ message }}
+            </div>
         </div>
     </div>
-</div>
+</ng-container>
