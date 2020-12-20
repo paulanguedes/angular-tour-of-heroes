@@ -1,27 +1,33 @@
-# AngularTourOfHeroes
+# Angular Tour of Heroes
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.6.
+## Descrição
 
-## Development server
+Aplicação baseada no tutorial da própria documentação do [Angular](https://angular.io/tutorial), mas somente com heroínas.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Funcionalidades
 
-## Code scaffolding
+- [x] Ranking de heroínas;
+- [x] Busca de heroínas pelo nome listadas abaixo da barra de pesquisa;
+- [x] Lista de heroínas com cards onde é possível excluí-las;
+- [x] Página de detalhes de cada heroína com nome e id;
+- [x] Edição do nome das heroínas no card de detalhes;
+- [x] Adição de nova heroína somente com **foto padrão** e em **cache**;
+- [x] Lista de ações feitas pelo usuário;
+- [ ] Animações;
+- [ ] Testes.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Configuração
 
-## Build
+Para rodar o projeto é necessário instalar o Angular CLI:
+`npm install -g @angular/cli`
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+E o Node:
+`nvm install node`
 
-## Running unit tests
+Depois basta clonar o projeto desse repositório:
+`https://github.com/paulanguedes/angular-tour-of-heroes.git`
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+E iniciar o Angular:
+`ng s`
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+![Alt Text](https://media.giphy.com/media/3o6vXRonVwzMX7g63u/giphy.gif)
